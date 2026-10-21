@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "CitaClara",
+    "slug": "cita-clara",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "scheme": "citaclara",
+    "ios": {
+      "bundleIdentifier": "com.citaclara.app",
+      "supportsTablet": false
+    },
+    "android": {
+      "package": "com.citaclara.app"
+    },
+    "plugins": ["expo-secure-store", "expo-notifications"]
+  }
+}
