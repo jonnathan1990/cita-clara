@@ -1,0 +1,7 @@
+-- CitaClara FULL SETUP
+-- Ejecuta en orden en el SQL Editor de Supabase:
+-- 1. schema.sql
+-- 2. functions.sql
+-- 3. rls.sql
+-- 4. migrations/0011_stripe.sql
+-- 5. (opcional) seed.sql
