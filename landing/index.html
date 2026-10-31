@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CitaClara — La app de citas que no te manipula</title>
+  <meta name="description" content="Citas claras: precio solo por país y plan, cancelación en 2 pantallas, IA visible y borrable." />
+  <style>
+    :root { --pink: #D6336C; --ink: #111; --muted: #555; --bg: #fffafb; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: system-ui, sans-serif; color: var(--ink); background: var(--bg); line-height: 1.5; }
+    header, section, footer { max-width: 960px; margin: 0 auto; padding: 24px; }
+    header { padding-top: 48px; }
+    .badge { display: inline-block; background: #ffe3ec; color: var(--pink); font-size: 13px; font-weight: 600; padding: 6px 12px; border-radius: 999px; margin-bottom: 16px; }
+    h1 { font-size: clamp(2rem, 5vw, 3rem); line-height: 1.15; margin: 0 0 12px; }
+    .lead { font-size: 1.2rem; color: var(--muted); max-width: 36em; }
+    .cta { display: inline-block; margin-top: 24px; background: var(--pink); color: #fff; text-decoration: none; padding: 14px 22px; border-radius: 12px; font-weight: 700; }
+    .cta.secondary { background: transparent; color: var(--pink); border: 2px solid var(--pink); margin-left: 12px; }
+    .grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+    .card { background: #fff; border: 1px solid #f0d5de; border-radius: 16px; padding: 20px; }
+    .card h3 { margin: 0 0 8px; }
+    .card p { margin: 0; color: var(--muted); font-size: 0.95rem; }
+    footer { color: var(--muted); font-size: 0.9rem; margin-bottom: 32px; }
+    a { color: var(--pink); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="badge">Monetización ética · MX / US / ES</div>
+    <h1>La app de citas que no te manipula.</h1>
+    <p class="lead">Precio solo por país y plan. Cancelación en máximo 2 pantallas. IA visible y borrable. Seguridad siempre gratis.</p>
+    <a class="cta" href="https://github.com/jonnathan1990/cita-clara">Ver el código</a>
+    <a class="cta secondary" href="https://github.com/jonnathan1990/cita-clara#arranque-en-5-pasos">Arrancar en 5 pasos</a>
+  </header>
+  <section>
+    <div class="grid">
+      <div class="card"><h3>Precios claros</h3><p>Nunca por edad, género u orientación. Solo país + plan.</p></div>
+      <div class="card"><h3>Salir es fácil</h3><p>Cancelar en ≤ 2 pantallas + portal Stripe.</p></div>
+      <div class="card"><h3>IA transparente</h3><p>Ves y borras cada inferencia sobre ti.</p></div>
+      <div class="card"><h3>Pausa por éxito</h3><p>Oculta tu perfil sin castigo.</p></div>
+    </div>
+  </section>
+  <section>
+    <h2>Stack</h2>
+    <p class="lead">Expo · Supabase · Stripe · RLS · Edge Functions</p>
+    <p><a href="https://github.com/jonnathan1990/cita-clara">github.com/jonnathan1990/cita-clara</a></p>
+  </section>
+  <footer>CitaClara · No es oferta de inversión.</footer>
+</body>
+</html>
